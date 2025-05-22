@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Interactive Earth</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body { margin:0; background:black; overflow:hidden; }
+    </style>
+    <script type="importmap">
+    {
+      "imports": {
+        "three":     "https://cdn.jsdelivr.net/npm/three@0.161/build/three.module.js",
+        "jsm/":      "https://cdn.jsdelivr.net/npm/three@0.161/examples/jsm/",
+        "earthvis/": "./earthvis/"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
